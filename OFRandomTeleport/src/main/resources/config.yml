@@ -1,0 +1,60 @@
+# Config for OFRandomTeleport
+
+messages:
+  first-join-teleported: "&aWelcome to the server, this is your first login; you've teleported to a &crandom location! &bClick Here to Join our Discord server!"
+  death-teleported: "&6You've died, teleported to a random location!"
+  random-teleporting-admin: "&bYou've randomly teleported to a random location by an admin"
+
+  home-count-exceeded: "&cCan't save the house, you have up to %amount% houses"
+  duplicate-house-name: "&cThis house name has been used before, please use a different one!"
+  home-created: "&aHome &b%home_name% created!"
+  home-not-found: "&cHome not found!"
+  home-teleporting: "&aTeleporting to %home_name% home!"
+  home-deleted: "&aHome deleted!"
+
+  tpa-sent: "&aTpa sent!"
+  tpa-received: "&b%player_name% sent you a tpa request! &6Use /tpaccept or click on this message to accept it!"
+
+  invalid-player: "&cThis player is not online!"
+  tpa-not-found: "&cYou don't have an tpa request!"
+  tpa-accepted: "&aTPA accepted, teleporting..."
+  tpa-timeout: "&cThis TPA request has been timed out!"
+  tpa-cooldown: "&cPlease wait 5 seconds to request another TPA!"
+
+  random-teleporting: "&6You're being teleported to a random location..."
+  no-homes-to-list: "&cYou don't have any homes to list!"
+  teleported-to-home: "&aYou've died and teleported back to home!"
+  your-homes: "&aYour Homes:"
+  home-list-format: "&7> &a%home_name% &7at &6%location_world% %location_x% %location_y% %location_z%"
+  not-enough-permission: "&cYou're not allowed to use this command"
+
+  not-allowed-in-other-world: "&cYou can't use RTP in this world!"
+  command-cooldown: "&cPlease wait &b5 &cseconds to use this command again!"
+  sethome-command-cooldown: "&cPlease wait &b30 &cseconds to sethome again!"
+
+
+# Seconds
+rtp-command-cooldown: 5
+
+# Discord link
+discord-link: "https://discord.gg/uRBKugK6dd"
+
+# After how many seconds can player accept TPA
+tpa-timeout: 60
+
+# How many homes can a player have depending on the permission
+# Please keep an order
+homes:
+  default: 3
+  some.permission: 5
+  some.other.permission: 10
+
+set-home-cooldown: 30
+
+teleportation-boundaries:
+  min:
+    x: -50000
+    z: -50000
+  max:
+    x: 50000
+    z: 50000
