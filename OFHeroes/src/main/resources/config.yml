@@ -1,0 +1,22 @@
+# Config for OFHeroes
+
+messages:
+  skill-activated: "&a%skill_name% activated!"
+  skill-deactivated: "&e%skill_name% deactivated!"
+  hero-select-reminder: "&eSelect a hero in 60 seconds to get unique abilities!"
+
+  hero-selected: "&eHero %hero% selected, you will gain custom abilities in 60 seconds!"
+  hero-abilities-activated: "&aYou choose %hero%, hero abilities enabled!"
+  hero-abilities-activated-no-hero: "&aHero abilities enabled, you didn't choose a hero!"
+  skill-cooldown-warning: "&cPlease wait %cooldown% to use this skill again!"
+  hero-already-selected: "&cYou already chosen this hero!"
+  cant-select-hero: "&cYou can't select an hero after 60 seconds of a battle!"
+
+hero-select-gui-title: "&6Select a Hero"
+
+database:
+  hostname: www.db4free.net  # Database server address.
+  port: '3306'  # Database port number, typically 3306 for MySQL.
+  database: safsdsdfs  # Name of the database to use (currently set to "none").
+  username: addfsasdsfdasd  # Username for database authentication (currently set to "none").
+  password: r1234567  # Password for database authentication (currently set to "none").

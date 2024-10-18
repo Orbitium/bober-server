@@ -1,0 +1,14 @@
+name: OFBoberBattles
+version: '0.1.0'
+main: me.orbitium.oFBoberBattles.OFBoberBattles
+api-version: '1.21'
+depend:
+  - PterodactylManager
+  - PterodactylBattles
+  - OFHeroes
+loadbefore:
+  - PterodactylManager
+  - PterodactylBattles
+  - OFHeroes
+commands:
+  battle:

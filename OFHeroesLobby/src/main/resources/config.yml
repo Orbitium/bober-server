@@ -1,0 +1,24 @@
+# Config for OFHeroes
+
+messages:
+  hero-selected: "&eHero %hero% selected, you will gain custom abilities when a battle starts!"
+  hero-already-selected: "&cYou already chosen this hero!"
+
+hero-select-gui-title: "&6Select a Hero"
+
+hero-upgrade-gui:
+  title: "&6Upgrade your hero"
+  hero-lore:
+    - "&7Available skill shards: &e%points%"
+
+  info:
+    name: "&6Info"
+    lore:
+      - "Info about how the upgrading works"
+
+database:
+  hostname:   # Database server address.
+  port: '3306'  # Database port number, typically 3306 for MySQL.
+  database:   # Name of the database to use (currently set to "none").
+  username:   # Username for database authentication (currently set to "none").
+  password:   # Password for database authentication (currently set to "none").

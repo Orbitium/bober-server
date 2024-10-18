@@ -1,0 +1,7 @@
+name: OFHeroesLobby
+version: '0.1.0'
+main: me.orbitium.oFHeroesLobby.OFHeroesLobby
+api-version: '1.21'
+commands:
+  hero:
+

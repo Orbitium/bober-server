@@ -1,0 +1,6 @@
+name: OFBoberBattlesLobby
+version: '0.1.0'
+main: me.orbitium.oFBoberBattlesLobby.OFBoberBattlesLobby
+api-version: '1.21'
+commands:
+  battle:

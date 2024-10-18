@@ -1,0 +1,6 @@
+name: OFHeroes
+version: '0.1.0'
+main: me.orbitium.oFHeroes.OFHeroes
+api-version: '1.21'
+commands:
+  hero:

@@ -1,0 +1,32 @@
+# Config file for OFBoberBattles
+messages:
+  game-starting: "&aGame is starting in &b%seconds% seconds"
+  game-started: "&6The battle started!"
+  player-eliminated: "&c%player_name% &eeliminated!"
+  eliminated: "&cYou're eliminated!"
+  game-finished: "&aGame finished, %player_name% won the game!"
+  joined-as-spectator: "&7You joined the battle as a spectator"
+  joined-as-survivor: "&7You joined the battle as a survivor"
+
+  border-timer: "&7World border will shrink to &e[%x%, %z%] &7in &b%seconds% seconds"
+  border-shrunk: "&eWorld border shrunk to &e[%x%, %z%]&e!"
+  border-teleport: "&eYou were teleported back inside the world border"
+  game-cancelled: "&cGame cancelled due player connection error"
+
+  more-players-required: "&cAt least %amount% players required to start the game!"
+
+game:
+  # Seconds - Border Size
+  border:
+    5400: 10000
+    4500: 8000
+    3600: 6000
+    2700: 4000
+    1800: 2000
+    1200: 1000
+    600: 250
+    300: 64
+    60: 32
+
+minimum-players-required-to-start-a-battle: 8
+game-start-countdown: 30

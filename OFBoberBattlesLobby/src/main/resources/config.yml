@@ -1,0 +1,25 @@
+# Config for OFBoberBattlesLobby
+
+messages:
+  player-queued: "&aYou've joined to queue, battle will start when there's enough players!"
+  player-dequeued: "&aYou left the queue!"
+  waiting-more-players: "&eWaiting for more players &7[&b%current-players%&c/&b8&7]"
+  no-available-server: "&cThere's no available servers found, waiting on the queue..."
+  more-players-required: "&eMore players required to start a game &7[&b%current-players%&c/&b8&7]"
+  game-starting: "&aA new battle is starting in %seconds% seconds!"
+
+  already-in-queue: "&cYou're already in queue!"
+  not-in-queue: "&cYou're not in queue!"
+
+help-command-lines:
+
+
+minimum-players-required-to-start-a-battle: 2
+game-start-countdown: 30
+
+plugin-id-map:
+  # id - server name
+  b1: ec89ad21
+  b2: 07812fcb
+  b3: ec89ad21
+  b4: ec89ad21
