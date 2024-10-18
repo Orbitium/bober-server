@@ -1,0 +1,11 @@
+compressed-world-file-names:
+  - compressed-world-1.tar.gz
+#  - compressed-world-2
+#  - compressed-world-3
+
+# UID of the servers
+controlled-servers:
+  - ec89ad21-b430-498f-8819-dacf0a086fbe
+  - 07812fcb-5661-4ead-9e01-977f50ca9bbc
+  - 02aedb08-6c5b-4d28-909c-ef3924fddb94
+  - e9bd5e34-6e6f-4cc7-bcf3-ebc289ea230e

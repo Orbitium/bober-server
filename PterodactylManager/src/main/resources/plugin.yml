@@ -1,0 +1,4 @@
+name: PterodactylManager
+version: '0.1.0'
+main: me.orbitium.pterodactylManager.PterodactylManager
+api-version: '1.21'

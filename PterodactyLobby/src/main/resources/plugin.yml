@@ -1,0 +1,9 @@
+name: PterodactylLobby
+version: '0.1.0'
+main: me.orbitium.pterodactylLobby.PterodactylLobby
+api-version: '1.21'
+depend:
+  - PterodactylManager
+commands:
+  gamenetwork:
+    permission: gamenetwork.use
